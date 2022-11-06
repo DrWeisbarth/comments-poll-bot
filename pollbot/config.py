@@ -10,7 +10,7 @@ default_config = {
         "bot_name": "your_bot_@_username",
         "api_key": "your_telegram_api_key",
         "worker_count": 20,
-        "admin": "nukesor",
+        "admin": "matthiasweisbarth",
         "allow_private_vote": False,
         "max_user_votes_per_day": 200,
         "max_inline_shares": 20,
