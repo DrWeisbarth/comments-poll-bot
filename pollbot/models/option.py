@@ -46,6 +46,8 @@ class Option(base):
         back_populates="option",
     )
 
+    comments_enabled = Column(Boolean, nullable=False, default=False)
+
     def __init__(self, poll, name):
         """Create a new poll."""
         self.name = name

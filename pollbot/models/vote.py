@@ -57,6 +57,8 @@ class Vote(base):
         back_populates="votes",
     )
 
+    comment = Column(String)
+
     def __init__(self, user, option):
         """Create a new vote."""
         self.user = user
